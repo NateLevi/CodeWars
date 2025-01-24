@@ -1,4 +1,4 @@
-CodeWars Challenges:
+# CodeWars Challenges:
 
 My goal is to solve a codewars problem every day.
 
