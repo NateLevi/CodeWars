@@ -1,4 +1,4 @@
-# CodeWars Challenges: [Visit Here]([https://www.codewars.com/users/NateLevi/stats])
+# CodeWars Challenges: [Visit Here]([url](https://www.codewars.com/users/NateLevi/stats))
 
 My goal is to solve a codewars problem every day.
 
