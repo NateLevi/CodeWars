@@ -7,4 +7,4 @@ A repository filled with my completed codewars challenges (kata).
 My goal is to solve a codewars problem every day.
 
 
-# "Every day’s a push to greatness. Let's git it!"
+## "Every day’s a push to greatness. Let's git it!"
