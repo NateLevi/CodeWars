@@ -19,12 +19,8 @@ Non-whitespace (ex. breakspace, unicode chars) should be treated as a delimiter
 Doublecheck that words with chars like -, ', ` are counted right.
 */
 function countWords(str) {
-  if(str.length === 0){
-    return 0
-  }
-  else{
-      return str.trim().split(/\s+/).length
-  }
+  let trimmed = str.trim();
+  return trimmed === '' ? 0 : trimmed.split(/[ \s]+/).length;
 }
 /*
 P: one or more strings 
