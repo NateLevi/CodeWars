@@ -1,9 +1,11 @@
-/*
-Complete the solution so that it reverses all of the words within the string passed in.
-
-Words are separated by exactly one space and there are no leading or trailing spaces.
-*/
-
+//1
 function reverseWords(str){
   return str.split(' ').reverse().join(' ')
 }
+//2
+const reverseWords= str => str.split(' ').reverse().join(' ')
+/*
+P: sentence string
+R: sentence reversed no spaces in front or back
+E: "This is a test"-> "test a is This"
+*/
