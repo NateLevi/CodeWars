@@ -1,5 +1,5 @@
 let number=function(array){
-  return array.map((element)=> array.indexOf(element) + 1 + ': ' + element)
+  return array === [] ? [] : array.map((element,index)=> index + 1 + ': ' + element)
 }
 /*
 P: List of strings 
