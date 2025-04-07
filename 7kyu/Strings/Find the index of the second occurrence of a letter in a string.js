@@ -1,13 +1,14 @@
 function secondSymbol(s, symbol) {
-  let string = s.split('')
-  let count = 0
-  
-  for( let i= 0 ; i < string.length; i++){
-    if(string[i].includes(symbol)){
-      count += [i]
+  let count = 0;
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === symbol) {
+      count++;
+      if (count === 2) {
+        return i;  
+      }
     }
   }
-  return count === 0 ? -1 : Number(count[2])
+  return -1; 
 }
 /*
 P: string and letter
