@@ -18,8 +18,7 @@ P:
 Primary Struggle Tag: 
 Specific Note: 
 Key Learning/Reinforcement: 
-
-Alternative Solution Link: 
-
-Review Notes: 
 */
+
+//Alternative Solution Link: 
+
