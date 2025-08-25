@@ -49,5 +49,7 @@ Key Learning/Reinforcement: Using objects is very helpful, you can use "in" to c
 is in a obj. Plain objects are not iterable meaning you can't loop through it one by one.
 Therefore you have to use the for...in loop. 
 */
-
 //Alternative Solution Link: 
+function duplicateCount(text){
+  return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
+}
