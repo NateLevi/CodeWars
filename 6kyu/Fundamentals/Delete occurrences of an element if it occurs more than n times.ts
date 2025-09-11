@@ -43,3 +43,10 @@ Key Learning/Reinforcement: for of loop is can't be used on object because of it
 */
 
 //Alternative Solution Link: 
+function deleteNth(arr,x) {
+  var cache = {};
+  return arr.filter(function(n) {
+    cache[n] = (cache[n]||0) + 1;
+    return cache[n] <= x;
+  });
+}
