@@ -23,9 +23,9 @@ function getSum(a, b)
 /*
 --- Reflection & Struggle ---
 
-Primary Struggle Tag: 
+Primary Struggle Tag: figuring out the question and the loop between integers
 Specific Note: 
-Key Learning/Reinforcement: 
+Key Learning/Reinforcement: setting i to something other then 0 and iteration length
 */
 
 //Alternative Solution Link: 
