@@ -44,3 +44,16 @@ Key Learning/Reinforcement: reseting a counter and conditionals in a loop
 */
 
 //Alternative Solution Link: 
+function toWeirdCase(string) {
+  return string
+    .split(' ')
+    .map(word =>
+      word
+        .split('')
+        .map((letter, index) =>
+          index % 2 === 0 ? letter.toUpperCase() : letter.toLowerCase()
+        )
+        .join('')
+    )
+    .join(' ');
+}
