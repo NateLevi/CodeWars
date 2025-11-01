@@ -1,6 +1,6 @@
 // --- Codewars Link: 
 // --- Title: 
-// --- Kyu: 6 kyu
+// --- Kyu: 5 kyu
 // --- Date Solved: 
 
 /*
