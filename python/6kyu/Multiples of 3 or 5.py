@@ -5,4 +5,4 @@ def solution(number):
             arr.append(num)
     return sum(arr)
 
-//Learned that you can use modular in python just like js
+#Learned that you can use modular in python just like js
