@@ -43,4 +43,4 @@ function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
   return false;
 }
 
-//learned: logic and conditionals
+//learned: logic and conditionals, i learned theres a date class in javascript and you can comapre with that. 
